@@ -1,0 +1,163 @@
+.angry-grid {
+    display: grid; 
+    grid-template-rows: 10vh 20vh 80vh 1fr 0.5fr;
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 0px;
+    height: 100%;
+ }
+   /* navbar */
+ #navbar {
+     grid-area: 1 / 1 / 2 / 4;
+ }
+  /* header */
+#header {
+    grid-area: 2 / 1 / 3 / 4;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative; 
+}
+
+#header h1 {
+    font-size: 3rem;
+    margin-bottom: 0.2rem;
+    font-family: Arial, sans-serif;
+    font-size: 60px;
+    color: black;
+    text-shadow: 5px 5px 0 yellow, -5px -5px 0 yellow, 5px -5px 0 yellow, -5px 5px 0 yellow;
+    position: absolute; 
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -100%); 
+}
+
+.headerimg {
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    display: block;
+    margin: 0 auto;
+    padding: 20px 0;
+    z-index: -1; 
+    object-fit: cover; 
+}
+ 
+/* foto */
+ #film-foto {
+    grid-area: 3 / 1 / 4 / 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px;
+    }
+
+.film-fotoimg {
+    width: 80%;
+    height: auto;
+    border-radius: 5px;
+    display: block;
+    padding: 20px 0;
+    }
+  /* foto besvhrijving */
+ #film-desc {
+    background-color: white; 
+    grid-area: 4 / 1 / 5 / 2;
+    padding: 20px;
+    margin: 10px 10px;
+    border-radius: 5px;
+}
+#film-desc p{
+   font-size: 16px;
+   line-height: 1.5;
+   padding: 5px;
+
+}
+strong {
+    color: #000;
+}
+/* film info */
+ #film-samenvatting {
+     background-color: white; 
+     grid-area: 3 / 2 / 4 / 3;
+     padding: 20px;
+     margin: 10px 10px;
+     border-radius: 5px;
+ }
+ #film-samenvatting p{
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 5px;
+ }
+ /* reviews */
+ #reviews {
+    background-color: white;
+    grid-area: 4 / 2 / 5 / 3;
+    padding: 20px;
+    margin: 10px 10px;
+    border-radius: 5px;
+ } 
+ #reviews h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center
+ }; 
+#review-text {
+    background-color: white;
+    height: 33%;
+    width: 100%; 
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+/* acteurs */
+#acteur1 {
+     grid-area: 3 / 3 / 4 / 4;
+     background-color: white;
+     padding: 20px;
+     margin: 10px 10px;
+     border-radius: 5px;
+     text-align: center;
+ }
+ 
+#acteur2 {
+     grid-area: 4 / 3 / 5 / 4;
+     background-color: white;
+     padding: 20px;
+     margin: 10px 10px;
+     border-radius: 5px;
+     text-align: center;
+ }
+
+
+
+.actor-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.actor-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+ /* footer */
+ #footer {
+    grid-area: 5 / 1 / 6 / 4;
+    color: yellow;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ 

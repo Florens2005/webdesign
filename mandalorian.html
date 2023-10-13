@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STAR MOVIES MANDALORIAN</title>
+    <link rel="stylesheet" href="movie.css">
+    <link rel="stylesheet" href="global.css">
+    <script src="searchbar.js" defer></script>
+</head>
+<body>
+    <div class="angry-grid">
+        <div id="navbar">
+            <a class="nav-item" href="index.html">Home</a>
+            <a class="nav-item" href="About.html">About</a>
+            <a class="nav-item" href="addfilm.html">Film Toevoegen</a>
+        </div>
+
+        <div id="header">
+            <h1>THE MANDALORIAN</h1>
+            <img src="https://pbs.twimg.com/media/EiV8NhLUMAAPmzN.jpg" alt="The Mandalorian" class="headerimg">
+        </div>
+        <div id="film-foto">
+            <img src="https://images.squarespace-cdn.com/content/v1/5bfdc74875f9ee194f3e0add/1595543330944-YAIO922G9ALDF0JS8C1R/The_Mandalorian_TV_Series-526462730-large.jpg" alt="The Mandalorian" class="film-fotoimg">
+        </div>
+        <div id="film-desc">
+            <p><strong>Titel:</strong> The Mandalorian</p>
+            <p><strong>Jaar van Uitkomst:</strong> 2019</p>
+            <p><strong>Genre:</strong> Science Fiction, Actie, Avontuur</p>
+            <p><strong>Maker:</strong> Jon Favreau</p>
+            <p><strong>Platform:</strong> Disney+</p>
+            <p><strong>Hoofdrolspeler:</strong> Pedro Pascal</p>
+        </div>
+        <div id="film-samenvatting">
+            <p>
+                <p>In "The Mandalorian" volgen we de avonturen
+                     van een eenzame premiejager in de buitenste
+                      regionen van het Star Wars-universum. Met een 
+                      meeslepende mix van actie, spanning en hartverwarmende 
+                      momenten, brengt deze serie een frisse kijk op het
+                       geliefde Star Wars-universum, en bevat het enkele
+                        onvergetelijke personages en verhaallijnen die
+                         fans van alle leeftijden zullen betoveren.</p>
+            </p>
+        </div>
+        <div id="reviews">
+            <h2>Reviews</h2>
+            <div class="review-text">
+                <h2>The Mandalorian - Een epische reis door het Star Wars-universum</h2>
+        <p>The Mandalorian betovert met een meeslepend verhaal en adembenemende actie, en brengt een frisse wind in het Star Wars-epos. Een must-see voor fans en nieuwkomers!</p>
+                <p>8.0/10</p>
+            </div>
+            <div class="review-text">
+                <h2>The Mandalorian - Een meesterwerk in het Star Wars-universum</h2>
+                <p>The Mandalorian levert een briljante mix van nostalgie en innovatie, met een boeiende verhaallijn en verbluffende visuele effecten die elke kijker zullen betoveren. Een onmisbare toevoeging aan de Star Wars-canon!</p> 
+                <p>7.5/10</p>
+            </div>
+            <div class="review-toevoegen">
+                <h2>Voeg een review toe</h2>
+                <form action="review.php" method="post">
+                    <label for="naam">Naam:</label><br>
+                    <input type="text" id="naam" name="naam"><br>
+                    <label for="review">Review:</label><br>
+                    <textarea id="review" name="review" rows="4" cols="50"></textarea><br>
+                    <label for="rating">Rating:</label>
+                    <input type="number" id="rating" name="rating" min="1" max="10">
+                    <input type="submit" value="invoeren">
+                    
+                </form>
+            </div>
+        </div>
+
+        <div id="acteur1">
+            <img src="url_naar_afbeelding" alt="Afbeelding van de acteur">
+            <h2>Naam van de Acteur</h2>
+        </div>
+        <div id="acteur2">
+                <img src="url_naar_afbeelding" alt="Afbeelding van de acteur">
+                <h2>Naam van de Acteur</h2>
+            </div>
+
+        <div id="footer">
+            <p>© 2023 STAR CINEMA door: <a href="about.html"><u>Florens Tool</u></a> </p>
+        </div>
+      </div>
+</body>
+</html>
