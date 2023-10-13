@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STAR MOVIES FILM TOEVOEGEN</title>
+    <link rel="stylesheet" href="addfilm.css">
+    <link rel="stylesheet" href="global.css">
+    <script src="searchbar.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="angry-grid">
+        <div id="navbar">
+            <a class="nav-item" href="index.html">Home</a>
+            <a class="nav-item active" href="About.html">About</a>
+            <a class="nav-item" href="addfilm.html">Film Toevoegen</a>
+    </div>
+        <div id="header">
+            <h1>Film Toevoegen</h1>
+        </div>
+        <div id="form">
+            <form class="cf">
+                <div class="half left cf">
+                  <input type="text" id="input-name" placeholder="Titel">
+                  <input type="text" id="input-jaar" placeholder="Jaar">
+                  <input type="text" id="input-regisseur" placeholder="Regisseur">
+                  <input type="text" id="input-acteur1" placeholder="Acteur 1">
+                    <input type="text" id="input-acteur" placeholder="Acteur 2">
+                </div>
+                <div class="half right cf">
+                  <textarea name="message" type="text" id="input-message" placeholder="Waar gaat het over..."></textarea>
+                    <div class="imageUploader">
+                        <label for="myfile" id="myfile">Voeg acteur foto toe:</label>
+                        <input type="file" id="myfile" name="myfile" accept="image/png, image/gif, image/jpeg">
+                        <input type="file" id="myfile" name="myfile" accept="image/png, image/gif, image/jpeg">
+                    </div>
+                </div>
+    
+    
+                  <input type="submit" value="Submit" id="input-submit">
+                </form>
+        </div>
+        <div id="footer">
+            <p>© 2023 STAR CINEMA door: <a href="about.html"><u>Florens Tool</u></a> </p>
+        </div>
+      </div>
+</body>
+</html>
