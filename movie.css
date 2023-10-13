@@ -1,6 +1,6 @@
 .angry-grid {
     display: grid; 
-    grid-template-rows: 10vh 20vh 80vh 1fr 0.5fr;
+    grid-template-rows: 10vh 20vh 1fr 1fr 0.5fr;
     grid-template-columns: 1fr 1fr 1fr; 
     gap: 0px;
     height: 100%;
@@ -133,22 +133,14 @@ strong {
      text-align: center;
  }
 
-
-
-.actor-image {
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
+.acteurimg{
+    border-radius: 5px;
+    width: 400px;
+    height: auto;
     margin-bottom: 20px;
 }
 
-.actor-name {
-    font-size: 24px;
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 10px;
-}
+
 
  /* footer */
  #footer {
